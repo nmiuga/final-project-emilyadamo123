@@ -189,7 +189,7 @@ struct CountriesListView: View {
                     .foregroundStyle(Color.white)
 //                    .foregroundStyle(darkGreen)
 
-                Text("Countries travelled to: \(viewModel.saved.values.filter { $0.category == .been }.count)")
+                Text("Country Count: \(viewModel.saved.values.filter { $0.category == .been }.count)")
                     .font(.system(size: 20, weight: .semibold))
                     .foregroundStyle(Color.white)
 //                    .foregroundStyle(medBlue)
